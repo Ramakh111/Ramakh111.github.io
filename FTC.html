@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang = "en">
-<head>
-    <ul style="list-style-type:circle">
-            <li><a href="/index">Home</a></li>
-            <li><a href="/about_FIRST">about FIRST</a></li>
-            <li><a class="active" href="/FTC">FTC</a></li>
-            <li><a href="/about_us">aboutt us</a></li>
-        </ul>
-</head>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0}
+
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+<body>
+<div class="icon-bar">
+  <a href="/index"><i class="fa fa-home">Home</i></a> 
+  <a href="/about_FIRST"><i class="">about FIRST</i></a> 
+  <a class="active" href="/FTC"><i class="">FTC</i></a> 
+  <a href="/about_us"><i class="">about us</i></a>
+</div>
+
+</body>
+</html> 
 <style>
 p {
   font-family: "Times New Roman", Times, serif;
