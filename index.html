@@ -84,3 +84,28 @@ Click me to display Date and Time.</button>
     <p style="background-color:CornflowerBlue;">A GLOBAL ROBOTICS COMMUNITY PREPARING YOUNG PEOPLE FOR THE FUTURE</p>
 </body>
 </html>
+
+  
+  
+  <html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+jQuery(document).ready(function () {
+newTab();
+});
+
+function newTab() {
+ var form = document.createElement("form");
+ form.method = "GET";
+ form.action = "http://www.google.com";
+ form.target = "_blank";
+ document.body.appendChild(form);
+ form.submit();
+}
+</script>
+</head>
+<body>
+<a class="my-link">link</a>
+</body>
+</html>
